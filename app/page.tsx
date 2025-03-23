@@ -178,7 +178,7 @@ export default function Home() {
             <span className="text-red-500">{"{}"}</span>
             <span className="text-blue-500">with</span>
             <span className="text-red-500">{"</"}</span>
-            <span className="text-white">Pratz(DSC Core)</span>
+            <span className="text-white"></span>
             <span className="text-blue-500">❤</span>
             <span className="text-red-500">{">"}</span>
           </div>
