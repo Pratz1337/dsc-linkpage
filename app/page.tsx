@@ -101,13 +101,8 @@ export default function Home() {
             },
             {
               href: "https://chat.whatsapp.com/Eu6GjTChtMs7dwsdhX9pvl",
-              icon: <HugeiconsIcon
-              icon={WhatsappIcon}
-              size={24}
-              color="white"
-              strokeWidth={1.5}
-             className="h-4 w-4 mr-2" />,
-              text: "Join WhatsApp Group",
+              icon: <HugeiconsIcon icon={WhatsappIcon} size={24} color="white" strokeWidth={1.5} className="h-4 w-4 mr-2" />,
+              text: "WhatsApp",
               color: "bg-green-500", // Changed to WhatsApp green
               delay: 300,
             },
@@ -163,7 +158,7 @@ export default function Home() {
 
         {/* Footer */}
         <footer
-          className={`mt-10 text-center text-xs text-gray-400 transition-all duration-700 delay-900 ease-out ${isLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`}
+          className={`mt-5 text-center text-xs text-gray-400 transition-all duration-700 delay-900 ease-out ${isLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`}
         >
           <p>© {new Date().getFullYear()} Developer Students Club - RIT</p>
           <div className="mt-2 flex justify-center space-x-1 animate-bounce-slow">
