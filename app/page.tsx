@@ -126,13 +126,7 @@ export default function Home() {
               color: "bg-blue-500",
               delay: 400,
             },
-            {
-              href: "https://www.youtube.com/channel/UC9EVrc_4U9HqVCvIUpzCbjw",
-              icon: <Youtube className="h-4 w-4 mr-2" />,
-              text: "YouTube",
-              color: "bg-red-500",
-              delay: 500,
-            },
+            
             
           ].map((link, index) => (
             <Link
