@@ -112,14 +112,14 @@ export default function Home() {
               icon: <Instagram className="h-4 w-4 mr-2" />,
               text: "Instagram",
               color: "bg-gradient-to-r from-purple-500 to-pink-500",
-              delay: 600,
+              delay: 400,
             },
             {
               href: "https://t.me/dscrit",
               icon: <Send className="h-4 w-4 mr-2" />,
               text: "Telegram",
               color: "bg-blue-500",
-              delay: 700,
+              delay: 500,
             },
             
             {
@@ -127,7 +127,7 @@ export default function Home() {
               icon: <Linkedin className="h-4 w-4 mr-2" />,
               text: "LinkedIn",
               color: "bg-blue-500",
-              delay: 400,
+              delay: 600,
             },
             
             
