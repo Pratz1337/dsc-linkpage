@@ -5,16 +5,15 @@ import Image from "next/image"
 import Link from "next/link"
 import {
   ExternalLink,
-  ArrowUpRight,
   MessageSquare,
   Globe,
-  Text,
   Linkedin,
-  Youtube,
   Instagram,
   
   Send,
 } from "lucide-react"
+import { HugeiconsIcon } from '@hugeicons/react';
+import { WhatsappIcon } from '@hugeicons/core-free-icons';
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 
@@ -102,7 +101,12 @@ export default function Home() {
             },
             {
               href: "https://chat.whatsapp.com/Eu6GjTChtMs7dwsdhX9pvl",
-              icon: <Text className="h-4 w-4 mr-2" />,
+              icon: <HugeiconsIcon
+              icon={WhatsappIcon}
+              size={24}
+              color="white"
+              strokeWidth={1.5}
+             className="h-4 w-4 mr-2" />,
               text: "Join WhatsApp Group",
               color: "bg-green-500", // Changed to WhatsApp green
               delay: 300,
@@ -174,7 +178,7 @@ export default function Home() {
             <span className="text-red-500">{"{}"}</span>
             <span className="text-blue-500">with</span>
             <span className="text-red-500">{"</"}</span>
-            <span className="text-white"></span>
+            <span className="text-white">Pratz(DSC Core)</span>
             <span className="text-blue-500">❤</span>
             <span className="text-red-500">{">"}</span>
           </div>
