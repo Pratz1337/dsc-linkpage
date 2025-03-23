@@ -173,7 +173,7 @@ export default function Home() {
           <div className="mt-2 flex justify-center space-x-1 animate-bounce-slow">
             <span className="text-red-500">{"{}"}</span>
             <span className="text-blue-500">with</span>
-            <span className="text-red-500">{"</"}</span>
+            <span className="text-red-500">{"</Pratz(DSC Core)"}</span>
             <span className="text-blue-500">❤</span>
             <span className="text-red-500">{">"}</span>
           </div>
