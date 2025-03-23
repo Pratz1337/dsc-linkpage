@@ -163,7 +163,7 @@ export default function Home() {
 
         {/* Footer */}
         <footer
-          className={`mt-12 text-center text-xs text-gray-400 transition-all duration-700 delay-900 ease-out ${isLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`}
+          className={`mt-10 text-center text-xs text-gray-400 transition-all duration-700 delay-900 ease-out ${isLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`}
         >
           <p>© {new Date().getFullYear()} Developer Students Club - RIT</p>
           <div className="mt-2 flex justify-center space-x-1 animate-bounce-slow">
