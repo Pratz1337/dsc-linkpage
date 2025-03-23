@@ -160,14 +160,6 @@ export default function Home() {
         </div>
 
         {/* Contact Button */}
-        <div
-          className={`mt-8 w-full transition-all duration-700 delay-800 ease-out ${isLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
-        >
-          <Button className="w-full bg-gradient-to-r from-red-500 to-blue-500 hover:from-red-600 hover:to-blue-600 flex items-center justify-center gap-2 group animate-gradient-x">
-            <MessageSquare className="h-4 w-4 transition-transform duration-300 group-hover:scale-110" />
-            Contact Us
-          </Button>
-        </div>
 
         {/* Footer */}
         <footer
