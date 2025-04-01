@@ -32,7 +32,7 @@ export default function Home() {
         <div className="absolute top-0 left-0 w-full h-full">
           <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
             <pattern id="circuit-pattern" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
-              <path d="M0,50 L100,50 M50,0 L50,100" stroke="white" strokeWidth="0.5" fill="none" />
+              <path d="M0,50 L200,50 M50,0 L50,200" stroke="white" strokeWidth="0.5" fill="none" />
               <circle cx="50" cy="50" r="3" fill="#3B82F6" />
               <circle cx="0" cy="50" r="3" fill="#EF4444" />
               <circle cx="100" cy="50" r="3" fill="#3B82F6" />
@@ -93,7 +93,7 @@ export default function Home() {
         <div className="w-full space-y-3">
           {[
             {
-              href: "https://dsc-rit.vercel.app/",
+              href: "https://rit-dsc.vercel.app/",
               icon: <Globe className="h-4 w-4 mr-2" />,
               text: "Our Website",
               color: "bg-blue-500",
