@@ -76,11 +76,9 @@ export default function Home() {
           <div className="p-4">
             <div className="flex items-center justify-between mb-2">
               <h3 className="font-semibold text-white">Icebreaker Event</h3>
-              <span className="text-xs px-2 mx-0 py-1 bg-green-500/20 text-green-400 rounded-full animate-pulse-slow">
-                ESB Seminar Hall 1
-              </span>
+              
               <span className="text-xs px-2 py-1 bg-green-500/20 text-green-400 rounded-full animate-pulse-slow">
-                April 4th
+                Happening Now!
               </span>
             </div>
             <p className="text-sm text-gray-300 mb-3">
