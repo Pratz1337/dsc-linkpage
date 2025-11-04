@@ -82,7 +82,7 @@ export default function Home() {
               </span>
             </div>
             <p className="text-sm text-gray-300 mb-3">
-             This spooky season DSC RIT invites you to its flagship showdown - Capture the Flag
+             Step into the dark, crack the codes, and claim your 🚩 before it disappears!!
             </p>
           </div>
         </Card>
