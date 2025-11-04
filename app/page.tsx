@@ -75,14 +75,14 @@ export default function Home() {
         >
           <div className="p-4">
             <div className="flex items-center justify-between mb-2">
-              <h3 className="font-semibold text-white">Icebreaker Event</h3>
+              <h3 className="font-semibold text-white">Capture the Flag🚩</h3>
               
               <span className="text-xs px-2 py-1 bg-green-500/20 text-green-400 rounded-full animate-pulse-slow">
-                Happening Now!
+                13th November 1:00PM!
               </span>
             </div>
             <p className="text-sm text-gray-300 mb-3">
-              Join our club&apos;s icebreaker session! Meet fellow developers and learn about upcoming activities.
+             This spooky season DSC RIT invites you to its flagship showdown - Capture the Flag
             </p>
           </div>
         </Card>
